@@ -92,3 +92,10 @@
     font-size: 13px;
     color: rgb(190, 190, 190);
 }
+
+.under{
+    cursor: pointer;
+}
+.under:hover{
+    text-decoration: underline;
+}
