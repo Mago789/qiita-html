@@ -1,0 +1,115 @@
+/* 約90行目からスタート */
+.main{
+    background-color: rgb(245, 245, 245);
+}
+
+.main-naka{
+    display: flex;
+    margin: 0px 175px;
+}
+
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 50px;
+    position: sticky;
+    top: 32px;
+}
+
+.border-hiku{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.q-feed{
+    margin-top: 10px;
+}
+
+.hover{
+    color: black;
+}
+.hover:hover{
+    background-color: darkgray;
+}
+
+.trend{
+    background-color: chartreuse;
+    color:black;
+}
+.trend:hover{
+    background-color: darkgray;
+}
+
+.trend-article{
+    width: 60%;
+    margin: 50px 10px 50px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.trend-flex{
+    display: flex;
+    align-items: center;
+}
+
+.trend-ward{
+    font-size: 20px;
+    margin: 0px 10px 10px 10px;
+}
+
+.trend-comment{
+    font-size: 12px;
+    color: darkgray;
+}
+
+.tagu-flex{
+    display: flex;
+}
+
+.tagu{
+    color: darkgray;
+    margin: 0px 10px;
+}
+
+.tagu:hover{
+    color: chartreuse;
+    border-bottom: solid 2px chartreuse;
+    width: 5%;
+}
+
+.article-waku{
+    margin-left: 10px;
+    border-top: solid 2px rgb(240, 240, 240);
+}
+
+.article-flex{
+    display: flex;
+    margin: 5px 0px;
+}
+
+.article-color{
+    color: darkgray;
+}
+
+.article-main{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+
+.article-tagu{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.adv{
+    width: 25%;
+    margin-top: 50px;
+}
+
+.adv-img{
+    width: 100%;
+    margin-bottom: 16px;
+}
