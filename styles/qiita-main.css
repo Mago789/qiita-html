@@ -14,7 +14,8 @@
     width: 15%;
     margin-top: 50px;
     position: sticky;
-    top: 32px;
+    top: 0px;
+    height: 100%;
 }
 
 .border-hiku{
