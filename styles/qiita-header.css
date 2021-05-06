@@ -85,17 +85,26 @@
     border: none;
     background-color: white;
 }
+.github:hover{
+    background-color: rgb(230,230,230);
+}
 .twitter{
     width: 80px;
     height: 35px;
     border: none;
     background-color: white;
 }
+.twitter:hover{
+    background-color: rgb(230,230,230);
+}
 .google{
     width: 80px;
     height: 35px;
     border: none;
     background-color: white;
+}
+.google:hover{
+    background-color: rgb(230,230,230);
 }
 
 /* 入力項目 */
@@ -116,6 +125,9 @@
     border: solid 1px white;
     padding: 4px;
     cursor: pointer;
+}
+.user:hover{
+    background-color: rgba(256,256,256,0.5);
 }
 .mail-input{/* メールアドレスのデザイン */
     display: flex;

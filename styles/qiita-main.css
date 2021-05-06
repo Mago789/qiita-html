@@ -27,8 +27,16 @@
     margin-top: 10px;
 }
 
+.hov-tit{
+    font-size: 12px;
+    font-weight: 600;
+}
+
 .hover{
     color: black;
+    margin-top: 8px;
+    font-size: 12px;
+    padding-left: 8px;
 }
 .hover:hover{
     background-color: darkgray;
@@ -37,6 +45,9 @@
 .trend{
     background-color: chartreuse;
     color:black;
+    margin-top: 8px;
+    font-size: 12px;
+    padding-left: 8px;
 }
 .trend:hover{
     background-color: darkgray;
@@ -72,12 +83,15 @@
 .tagu{
     color: darkgray;
     margin: 0px 10px;
+    font-size: 12px;
+    margin-left: 24px;
+    padding: 0px 24px 8px 24px;
+    cursor: pointer;
 }
 
 .tagu:hover{
     color: chartreuse;
     border-bottom: solid 2px chartreuse;
-    width: 5%;
 }
 
 .article-waku{
@@ -98,19 +112,108 @@
     font-size: 20px;
     font-weight: 700;
     margin: 5px 0px;
+    cursor: pointer;
 }
+.article-main:hover{
+    text-decoration: underline solid 1px black;
+}
+
 
 .article-tagu{
     font-size: 15px;
     margin: 5px 0px;
+    display: flex;
+}
+.article-tagu p{
+    cursor: pointer;
+}
+.article-tagu p:hover{
+    text-decoration: underline;
 }
 
 .adv{
-    width: 25%;
+    width: 30%;
     margin-top: 50px;
+    margin-left: 10px;
+    font-size: 16px;
 }
 
 .adv-img{
     width: 100%;
     margin-bottom: 16px;
+}
+
+.event{
+    background-color: white;
+    padding: 16px 16px;
+}
+.event-font{
+    font-size: 12px;
+    color: gray;
+}
+
+.ad-eve{
+    padding: 16px;
+    border: solid 1px chartreuse;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.ad-flex{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.yajirushi{
+    background-color: greenyellow;
+    font-size: 12px;
+    color: white;
+}
+.ad-font{
+    color: chartreuse;
+    font-size: 12px;
+    cursor: pointer;
+}
+.ad-font:hover{
+    text-decoration: underline chartreuse;
+}
+.ad-art{
+    font-size: 12px;
+}
+.ad-art2{
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.ad-tit{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.reco{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    margin-top: 16px;
+}
+
+.reco-tit{
+    margin-bottom: 10px;
+}
+
+.reco-art{
+    border-top: solid 1px rgb(190, 190, 190);
+    padding: 10px 4px;
+}
+.reco-cont{
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.reco-cont:hover{
+    text-decoration: underline;
+}
+.reco-time{
+    font-size: 12px;
+    color: gray;
 }
