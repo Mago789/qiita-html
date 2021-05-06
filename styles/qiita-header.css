@@ -175,6 +175,9 @@
     margin-bottom: 30px;
     cursor: pointer;
 }
+.signup:hover{
+    background-color: rgba(256,256,256,0.5);
+}
 
 .agree{
     margin-top: 20px;
@@ -183,6 +186,10 @@
 
 .kiyaku{
     color: blue;
+    cursor: pointer;
+}
+.kiyaku:hover{
+    text-decoration: underline blue;
 }
 
 .agree-color{
@@ -195,6 +202,10 @@
 
 .prai{
     color: blue;
+    cursor: pointer;
+}
+.prai:hover{
+    text-decoration: underline blue;
 }
 
 .privacy-color{
