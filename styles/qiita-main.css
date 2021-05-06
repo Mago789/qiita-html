@@ -141,6 +141,7 @@
 .adv-img{
     width: 100%;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 .event{
@@ -150,6 +151,12 @@
 .event-font{
     font-size: 12px;
     color: gray;
+}
+.eve-tit{
+    cursor: pointer;
+}
+.eve-tit:hover{
+    text-decoration: underline;
 }
 
 .ad-eve{
