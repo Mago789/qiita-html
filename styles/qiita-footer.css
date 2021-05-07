@@ -19,12 +19,13 @@
 .foot-qiita{
     margin-left: 20px;
     margin-top: 20px;
+    margin-bottom: 15px;
     font-size: 45px;
     font-weight: 500;
 }
 
 .foot-comment{
-    font-size: 12px;
+    font-size: 14px;
     margin-left: 20px;
 }
 
